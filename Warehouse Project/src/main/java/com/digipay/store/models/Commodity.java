@@ -1,5 +1,7 @@
 package com.digipay.store.models;
 
+import java.util.Date;
+
 public class Commodity {
     private String name;
     private String barcode;
@@ -7,9 +9,9 @@ public class Commodity {
     private String quantity;
     private String price;
     private String supplier;
-    private String enterDate;
-    private String sellDate;
-    private String rentDate;
+    private Date enterDate;
+//    private Date sellDate;
+    private Date rentDate;
 
     public String getName() {
         return name;
@@ -59,27 +61,19 @@ public class Commodity {
         this.supplier = supplier;
     }
 
-    public String getEnterDate() {
+    public Date getEnterDate() {
         return enterDate;
     }
 
-    public void setEnterDate(String enterDate) {
+    public void setEnterDate(Date enterDate) {
         this.enterDate = enterDate;
     }
 
-    public String getSellDate() {
-        return sellDate;
-    }
-
-    public void setSellDate(String sellDate) {
-        this.sellDate = sellDate;
-    }
-
-    public String getRentDate() {
+    public Date getRentDate() {
         return rentDate;
     }
 
-    public void setRentDate(String rentDate) {
+    public void setRentDate(Date rentDate) {
         this.rentDate = rentDate;
     }
 }
