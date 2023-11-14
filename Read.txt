@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-gsljfsljfd ls f
-=======
-This is a test.
->>>>>>> 37143212303ed30dc501b5a76f1893b8146fc635
